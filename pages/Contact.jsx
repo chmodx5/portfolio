@@ -7,7 +7,7 @@ import { MdOutlineEmail, MdPhone } from "react-icons/md";
 
 function ContactInfo({ icon, children }) {
   return (
-    <div className="flex gap-8  px-5 py-8 group hover:bg-primary-default bg-primary-default/5">
+    <div className="flex gap-8 items-center  px-5 py-8 group hover:bg-primary-default bg-primary-default/5">
       <span className="text-5xl group-hover:text-white">{icon}</span>
 
       <div className="">{children}</div>
@@ -32,9 +32,6 @@ export default function Contact() {
                 <li className="hover:font-bold group-hover:text-white">
                   <a href="tel:0746405792">0746405792</a>
                 </li>
-                <li className="hover:font-bold group-hover:text-white">
-                  <a href="tel:0106856867">0106856867</a>
-                </li>
               </ul>
             </ContactInfo>
             <ContactInfo icon={<MdOutlineEmail />}>
@@ -45,14 +42,6 @@ export default function Contact() {
                     href="mailto:onesmaswanjala2021@gmail.com"
                   >
                     <p>onesmaswanjala2021@gmail.com</p>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="hover:font-bold group-hover:text-white"
-                    href="mailto:wafulawanjala@hotmail.com"
-                  >
-                    <p>wafulawanjala@hotmail.com</p>
                   </a>
                 </li>
               </ul>

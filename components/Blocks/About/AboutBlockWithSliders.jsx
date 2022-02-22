@@ -14,27 +14,20 @@ export default function AboutBlockWithSliders({
   return (
     <div className="py-20 px-6 md:px-0">
       <div className="container mx-auto">
-        <div className="grid grid-cols-12 gap-5">
-          <div className="col-span-12 md:col-span-7">
-            <div className="w-full md:w-3/4">
-              <HeadingWithEffect large title={title} subtitle={subtitle} />
+        <div className="">
+          <div className="">
+            <div className="w-full ">
+              <HeadingWithEffect centered title={title} subtitle={subtitle} />
             </div>
             <br /> <br />
-            <div>{description} </div>
-            <br />
-            <br />
-            <Button link={buttonlink} text={buttontext} />
-          </div>
-          <div className="col-span-12 md:col-span-5 items-center flex">
-            <div className="w-full">
-              {sliders.map((slider, index) => (
-                <AboutSlider
-                  key={index}
-                  title={slider.title}
-                  progress={slider.progress}
-                />
-              ))}
+            <div className="w-full md:w-3/4 mx-auto text-center">
+              {description}{" "}
             </div>
+            <br />
+            <br />
+            <p className="text-center">
+              <Button link={buttonlink} text={buttontext} />
+            </p>
           </div>
         </div>
       </div>

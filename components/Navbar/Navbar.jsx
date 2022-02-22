@@ -11,7 +11,7 @@ function Header({ logo, navitems }) {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
               <a>
-                <h1 className="font-bold text-3xl uppercase">
+                <h1 className="font-bold text-2xl uppercase">
                   {logo == null ? (
                     <>
                       <span className=" text-primary-default">Nya</span>ngumi

@@ -7,9 +7,9 @@ export default function ServicesBlock({ title, services }) {
   return (
     <div className="py-20">
       <div className="container mx-auto">
-        <HeadingWithEffect large centered title={title} />
+        <HeadingWithEffect centered title={title} />
 
-        <div className="grid grid-cols-12 gap-6 mt-10 px-6 md:px-0">
+        <div className="grid grid-cols-12 gap-12 mt-10 px-6 md:px-0">
           {services.map((service, index) => (
             <div key={index} className="col-span-12 md:col-span-4 ">
               <ServiceCard

@@ -7,7 +7,7 @@ function NavLink({ link, text }) {
   return (
     <Link href={link} passHref>
       <span
-        className={`font-semibold uppercase px-4 text-sm  hover:text-primary-default hover:cursor-pointer ${
+        className={`font-semibold uppercase px-4 text-xs  hover:text-primary-default hover:cursor-pointer ${
           router.pathname == link ? " text-primary-default" : ""
         }`}
       >

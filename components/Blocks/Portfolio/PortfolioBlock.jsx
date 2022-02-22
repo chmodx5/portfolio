@@ -7,7 +7,7 @@ export default function PortfolioBlock({ subtitle, title, portfolioitems }) {
   return (
     <div className="py-20">
       <div className="container mx-auto">
-        <HeadingWithEffect title={title} large centered subtitle={subtitle} />
+        <HeadingWithEffect title={title} centered subtitle={subtitle} />
         <br />
         <br />
 
