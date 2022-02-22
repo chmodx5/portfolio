@@ -9,7 +9,7 @@ export default function ServicesBlock({ title, services }) {
       <div className="container mx-auto">
         <HeadingWithEffect centered title={title} />
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-10 px-6 md:px-0">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-12 mt-10 px-6 md:px-0">
           {services.map((service, index) => (
             <div key={index} className="">
               <ServiceCard
@@ -19,20 +19,6 @@ export default function ServicesBlock({ title, services }) {
               />
             </div>
           ))}
-          {/* <div className="col-span-12 md:col-span-4">
-            <ServiceCard
-              icon={<FaRegLightbulb />}
-              title="UI/UX Design"
-              desc="Quisque placerat vitae lacus ut scele risque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas."
-            />
-          </div>
-          <div className="col-span-12 md:col-span-4">
-            <ServiceCard
-              icon={<FaOpencart />}
-              title="UI/UX Design"
-              desc="Quisque placerat vitae lacus ut scele risque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas."
-            />
-          </div> */}
         </div>
       </div>
     </div>

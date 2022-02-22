@@ -47,22 +47,43 @@ function Home() {
         ]}
       />
       <ServicesBlock
-        title="services"
+        title="skills"
         services={[
           {
-            icon: "FaPencilRuler",
-            title: "UI/UX design",
-            desc: "Quisque placerat vitae lacus ut scele risque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.",
+            icon: "/html-logo.svg",
+            title: "HTML5",
           },
           {
-            icon: "FaRegLightbulb",
-            title: "UI/UX design",
-            desc: "Quisque placerat vitae lacus ut scele risque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.",
+            icon: "/css-logo.svg",
+            title: "CSS3",
           },
           {
-            icon: "FaOpencart",
-            title: "UI/UX design",
-            desc: "Quisque placerat vitae lacus ut scele risque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.",
+            icon: "/javascript-logo.svg",
+            title: "Javascript",
+          },
+          {
+            icon: "/nodejs-logo.svg",
+            title: "Node.js",
+          },
+          {
+            icon: "/sass-logo.svg",
+            title: "SASS",
+          },
+          {
+            icon: "/vue-logo.svg",
+            title: "Vue.js",
+          },
+          {
+            icon: "/react-logo.svg",
+            title: "React.js",
+          },
+          {
+            icon: "/git-logo.svg",
+            title: "Git",
+          },
+          {
+            icon: "/wordpress-logo.svg",
+            title: "Wordpress",
           },
         ]}
       />
