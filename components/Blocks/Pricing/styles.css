@@ -1,0 +1,6 @@
+.payment-features-list-item {
+  @apply flex text-lg py-2 items-center;
+}
+.payment-features-list-item svg {
+  @apply mr-4;
+}
