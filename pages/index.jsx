@@ -3,7 +3,6 @@ import AboutBlockWithSliders from "../components/Blocks/About/AboutBlockWithSlid
 import ServicesBlock from "../components/Blocks/Services/ServicesBlock";
 import PortfolioBlock from "../components/Blocks/Portfolio/PortfolioBlock";
 import Hero from "../components/Blocks/Hero/Hero";
-import Layout from "../components/layout/Layout";
 // import BlogBlock from "../../components/Blocks/Blog/BlogBlock";
 // import PricingBlock from "../../components/Blocks/Pricing/PricingBlock";
 // import ImageContainer from "../../components/General/ImageContainer";
@@ -112,8 +111,5 @@ function Home() {
     </>
   );
 }
-Home.getLayout = function getLayout(page) {
-  return <Layout>{page}</Layout>;
-};
 
 export default Home;
