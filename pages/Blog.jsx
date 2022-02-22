@@ -1,5 +1,5 @@
 import React from "react";
-import Breadcrumbs from "../../components/Blocks/Breadcrumbs/Breadcrumbs";
+import Breadcrumbs from "./../components/Blocks/Breadcrumbs/Breadcrumbs";
 
 export default function Blog() {
   return (
