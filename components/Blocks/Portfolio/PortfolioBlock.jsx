@@ -11,12 +11,9 @@ export default function PortfolioBlock({ subtitle, title, portfolioitems }) {
         <br />
         <br />
 
-        <div className="grid grid-cols-12 gap-12 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 px-6 md:px-0 gap-12 ">
           {portfolioitems.map((item, index) => (
-            <div
-              key={index}
-              className="col-span-12 sm:col-span-6 md:col-span-4"
-            >
+            <div key={index} className="">
               <PortfolioItem
                 styleTwo
                 key={index}

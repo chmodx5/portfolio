@@ -9,9 +9,9 @@ export default function ServicesBlock({ title, services }) {
       <div className="container mx-auto">
         <HeadingWithEffect centered title={title} />
 
-        <div className="grid grid-cols-12 gap-12 mt-10 px-6 md:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-10 px-6 md:px-0">
           {services.map((service, index) => (
-            <div key={index} className="col-span-12 md:col-span-4 ">
+            <div key={index} className="">
               <ServiceCard
                 icon={service.icon}
                 title={service.title}
