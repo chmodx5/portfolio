@@ -1,14 +1,7 @@
 import React from "react";
-import * as FontAwesome from "react-icons/fa";
 import Image from "next/image";
 
-export const MyIcon = (props) => {
-  const { iconName } = props;
-  const customicon = React.createElement(FontAwesome[iconName]);
-  return <div>{customicon}</div>;
-};
-
-export default function ServiceCard({ icon, title, desc }) {
+export default function SkillCard({ icon, title }) {
   return (
     <div>
       <div className="bg-primary-default/5 py-4  group text-center">

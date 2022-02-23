@@ -1,45 +1,51 @@
 import React from "react";
 import AboutBlockOne from "./../components/Blocks/About/AboutBlockOne";
 import Breadcrumbs from "./../components/Blocks/Breadcrumbs/Breadcrumbs";
-import ServicesBlock from "./../components/Blocks/Services/ServicesBlock";
+import Skills from "../components/Blocks/Skills/Skills";
 
 export default function About() {
   return (
     <div>
       <Breadcrumbs title="about" />
       <AboutBlockOne />
-      <ServicesBlock
+      <Skills
         title="services"
-        services={[
+        skills={[
           {
-            icon: "FaPencilRuler",
-            title: "UI/UX design",
-            desc: "Quisque placerat vitae lacus ut scele risque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.",
+            icon: "/html-logo.svg",
+            title: "HTML5",
           },
           {
-            icon: "FaRegLightbulb",
-            title: "UI/UX design",
-            desc: "Quisque placerat vitae lacus ut scele risque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.",
+            icon: "/css-logo.svg",
+            title: "CSS3",
           },
           {
-            icon: "FaOpencart",
-            title: "UI/UX design",
-            desc: "Quisque placerat vitae lacus ut scele risque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.",
+            icon: "/javascript-logo.svg",
+            title: "Javascript",
           },
           {
-            icon: "FaPencilRuler",
-            title: "UI/UX design",
-            desc: "Quisque placerat vitae lacus ut scele risque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.",
+            icon: "/nodejs-logo.svg",
+            title: "Node.js",
           },
           {
-            icon: "FaRegLightbulb",
-            title: "UI/UX design",
-            desc: "Quisque placerat vitae lacus ut scele risque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.",
+            icon: "/sass-logo.svg",
+            title: "SASS",
           },
           {
-            icon: "FaOpencart",
-            title: "UI/UX design",
-            desc: "Quisque placerat vitae lacus ut scele risque. Fusce luctus odio ac nibh luctus, in porttitor theo lacus egestas.",
+            icon: "/vue-logo.svg",
+            title: "Vue.js",
+          },
+          {
+            icon: "/react-logo.svg",
+            title: "React.js",
+          },
+          {
+            icon: "/git-logo.svg",
+            title: "Git",
+          },
+          {
+            icon: "/wordpress-logo.svg",
+            title: "Wordpress",
           },
         ]}
       />

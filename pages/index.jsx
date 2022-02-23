@@ -1,6 +1,6 @@
 import React from "react";
 import AboutBlockWithSliders from "../components/Blocks/About/AboutBlockWithSliders";
-import ServicesBlock from "../components/Blocks/Services/ServicesBlock";
+import Skills from "../components/Blocks/Skills/Skills";
 import PortfolioBlock from "../components/Blocks/Portfolio/PortfolioBlock";
 import Hero from "../components/Blocks/Hero/Hero";
 // import BlogBlock from "../../components/Blocks/Blog/BlogBlock";
@@ -46,9 +46,9 @@ function Home() {
           },
         ]}
       />
-      <ServicesBlock
+      <Skills
         title="skills"
-        services={[
+        skills={[
           {
             icon: "/html-logo.svg",
             title: "HTML5",
