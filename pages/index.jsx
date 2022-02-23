@@ -3,6 +3,7 @@ import AboutBlockWithSliders from "../components/Blocks/About/AboutBlockWithSlid
 import Skills from "../components/Blocks/Skills/Skills";
 import PortfolioBlock from "../components/Blocks/Portfolio/PortfolioBlock";
 import Hero from "../components/Blocks/Hero/Hero";
+import portfolioitems from "./../portfoliodata";
 // import BlogBlock from "../../components/Blocks/Blog/BlogBlock";
 // import PricingBlock from "../../components/Blocks/Pricing/PricingBlock";
 // import ImageContainer from "../../components/General/ImageContainer";
@@ -90,44 +91,7 @@ function Home() {
       <PortfolioBlock
         subtitle="portfolios"
         title="my latest works"
-        portfolioitems={[
-          {
-            category: "branding",
-            title: "Someone Else",
-            img: "https://source.unsplash.com/cauCwvTkHLM",
-            link: "/",
-          },
-          {
-            category: "design",
-            title: "waste board",
-            img: "https://source.unsplash.com/AGZAliGQmP4",
-            link: "/",
-          },
-          {
-            category: "development",
-            title: "disastrous elated",
-            img: "https://source.unsplash.com/Da0pdCekeUs",
-            link: "/",
-          },
-          {
-            category: "development",
-            title: "library scent",
-            img: "https://source.unsplash.com/RDolnHtjVCY",
-            link: "/",
-          },
-          {
-            category: "design",
-            title: "flight lacking",
-            img: "https://source.unsplash.com/HI6gy-p-WBI",
-            link: "/",
-          },
-          {
-            category: "design",
-            title: "finger licking",
-            img: "https://source.unsplash.com/KDdNjUQwzSw",
-            link: "/",
-          },
-        ]}
+        portfolioitems={portfolioitems}
       />
     </>
   );
