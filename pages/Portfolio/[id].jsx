@@ -4,6 +4,7 @@ import HeadingWithEffect from "../../components/General/HeadingWithEffect";
 import Link from "next/link";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { useRouter } from "next/router";
+import portfolioitems from "./../../portfoliodata";
 
 const PortfolioDetails = () => {
   const router = useRouter();

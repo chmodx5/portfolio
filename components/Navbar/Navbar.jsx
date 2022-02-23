@@ -65,7 +65,9 @@ function Header({ logo, navitems }) {
           {mobilemenu && (
             <div className="absolute top-0 right-0 h-screen bg-white dark:bg-darkbackground shadow-xl w-10/12 px-6 py-6 md:hidden">
               <div className="flex justify-between mb-6">
-                <ThemeSwitch />
+                <span>
+                  <ThemeSwitch onClick={() => setMobilemenu(false)} />
+                </span>
                 <button
                   className="hover:text-primary-default"
                   onClick={() => setMobilemenu(false)}
@@ -77,7 +79,8 @@ function Header({ logo, navitems }) {
                 {navItems.map((navitem, index) => (
                   <li className=" mb-4" key={index}>
                     <Link href={navitem.link} passHref>
-                      <span
+                      <div
+                        onClick={() => setMobilemenu(false)}
                         className={`font-semibold uppercase px-4 text-lg  hover:text-primary-default hover:cursor-pointer ${
                           router.pathname == navitem.link
                             ? " text-primary-default"
@@ -85,7 +88,7 @@ function Header({ logo, navitems }) {
                         }`}
                       >
                         {navitem.title}
-                      </span>
+                      </div>
                     </Link>
                   </li>
                 ))}
