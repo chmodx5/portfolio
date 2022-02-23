@@ -15,7 +15,6 @@ export default function PortfolioBlock({ subtitle, title, portfolioitems }) {
           {portfolioitems.map((item, index) => (
             <div key={index} className="">
               <PortfolioItem
-                styleTwo
                 key={index}
                 category={item.category}
                 title={item.title}
